@@ -1,0 +1,10 @@
+{
+	"twilio": {
+		"sid": "ACCOUNT_SID",
+		"token": "AUTH_TOKEN"
+	},
+	"fromPhone": "+97243729031",
+	"messagePattern": "A notification from AWS SNS. Subject is '{Subject}' and message is '{Message}'",
+	"port": 1488,
+	"twilioUrlPattern": "http://example.com:1488/twilio?message={urlEncodedMessage}"
+}
