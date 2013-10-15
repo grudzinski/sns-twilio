@@ -2,9 +2,8 @@
 var _ = require('lodash');
 var connect = require('connect');
 var twilio = require('twilio');
-var rc = require('rc');
 
-var conf = rc('sns-twilio');
+var conf = require('./lib/conf.js');
 
 var twilioClient = twilio(conf.twilio.sid, conf.twilio.token);
 var app = connect();
