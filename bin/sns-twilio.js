@@ -3,7 +3,7 @@ var _ = require('lodash');
 var connect = require('connect');
 var twilio = require('twilio');
 
-var conf = require('./lib/conf.js');
+var conf = require('../lib/conf.js');
 
 var twilioClient = twilio(conf.twilio.sid, conf.twilio.token);
 var app = connect();
