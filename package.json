@@ -1,9 +1,9 @@
 {
   "name": "sns-twilio",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "A gateway between AWS SNS and your phone",
   "bin": {
-    "sns-twilio": "./bin/sns-twilio-daemon.js",
+    "sns-twilio": "./bin/sns-twilio.js",
     "sns-twilio-daemon": "./bin/sns-twilio-daemon.js"
   },
   "repository": {

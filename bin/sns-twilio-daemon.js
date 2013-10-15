@@ -1,5 +1,9 @@
 #!/usr/local/bin/node
 
-var conf = require('../lib/conf.js');
+var sdt = require('sdt');
 
-sdt.runCli(conf);
+var conf = require('../lib/conf.js');
+var daemonConf = conf.daemon;
+
+daemonConf._ = conf._;
+sdt.runCli(daemonConf);
