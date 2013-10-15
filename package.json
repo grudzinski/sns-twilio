@@ -2,8 +2,10 @@
   "name": "sns-twilio",
   "version": "0.0.0",
   "description": "A gateway between AWS SNS and your phone",
-  "main": "index.js",
-  "bin": "./bin/sns-twilio.js",
+  "bin": {
+    "sns-twilio": "./bin/sns-twilio-daemon.js",
+    "sns-twilio-daemon": "./bin/sns-twilio-daemon.js",
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/grudzinski/sns-twilio.git"
