@@ -1,0 +1,23 @@
+{
+  "name": "sns-twilio",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grudzinski/sns-twilio.git"
+  },
+  "author": "Roman Grudzinski",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/grudzinski/sns-twilio/issues"
+  },
+  "homepage": "https://github.com/grudzinski/sns-twilio",
+  "dependencies": {
+    "rc": "~0.3.1",
+    "connect": "~2.9.0",
+    "twilio": "~1.2.0",
+    "lodash": "~2.2.1"
+  }
+}
